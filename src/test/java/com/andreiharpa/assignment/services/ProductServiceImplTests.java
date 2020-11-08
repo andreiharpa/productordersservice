@@ -28,7 +28,6 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-@SpringBootTest
 public class ProductServiceImplTests {
     private static final UUID TEST_PRODUCT_ID_1 = UUID.fromString("b2abf4cd-7498-4ee0-a6d6-13c4060266ef");
     private static final UUID TEST_PRODUCT_ID_2 = UUID.fromString("b3abf4cd-1234-4ee0-a6d6-13c4060266ef");

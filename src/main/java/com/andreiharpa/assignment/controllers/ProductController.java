@@ -36,7 +36,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class ProductController {
     @Autowired
-    private final ProductService productService;
+    private ProductService productService;
 
     /**
      * Handles getAll requests
